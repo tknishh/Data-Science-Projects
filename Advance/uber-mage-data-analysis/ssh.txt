@@ -1,0 +1,28 @@
+# update whole os
+sudo apt-get update -y
+
+# Install Python and pip
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+sudo python3 get-pip.py 
+
+# Install Mage
+
+sudo pip3 install mage-ai
+
+# Start Mage
+
+mage start <project name>
+
+# Install google-cloud module
+
+sudo pip3 install google-cloud
+
+sudo pip3 install google-cloud-bigquery
